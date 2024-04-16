@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 카멜케이스 -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
+	
+	<!-- 자주 사용 하는 타입의 별칭 -->
+	<typeAliases>
+		<!-- DTO -->
+		<typeAlias alias="BoardDTO" type="com.seedit.edu.sample.dto.BoardDTO"/>
+	</typeAliases>
+</configuration>
